@@ -1,139 +1,77 @@
 *{
-  margin: 0;
-  padding: 0;
-  font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
-.head{
-  min-height: 100vh;
-  width: 100%;
-  background-image: url("../images/Algebra14.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, rgb(0, 102, 255, 0),rgb(0, 102, 255,1)), url(images/background1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
-.head ul{
-  text-align: right;
-  padding: 50px;
-}
-.head ul li{
-  display: inline-block;
-  padding: 8px 12px;
+nav{
+    padding: 1% 2%;
 }
 
-.head ul li a{
-  text-decoration: none;
-  color: #ffffff;
+nav ul li{
+    padding: 1% 2%;
+    text-decoration: none;
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: #000;
+    transition: 0.4s;
 }
 
-.head h1{
-  font-family: 'Sofia', cursive;
-  font-size: 60px;
-  text-align: center;
-  padding-top: 40px;
-  color: #ffffff;
+.header h1{
+    padding-top: 120px;
+    font-size: 70px;
+    text-align: center;
+    color: #fff;
+}
+.header p{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 25px;
 }
 
-.head p{
-  font-size: 25px;
-  text-align: center;
-  padding-top: 8px;
-}
-.head a{
-  text-decoration: none;
-  color: #e0ebeb;
-}
-.head a:hover{
-  color: #ff9900;
-  transition: 0.5s;
+.header h3{
+    padding-top: 60px;
+    font-size: 25px;
+    text-align: center;
 }
 
-.body{
-  text-align: center;
+.header h3 a{
+    text-decoration: none;
+    color: #fff
 }
 
-.body h1{
-  font-size: 20px;
-  color: black;
-  padding: 10px 8px;
-  text-align: center;
-  background: #cffdbc;
-  border: 2px solid #e0ebeb;
-  border-radius: 50px;
+.content{
+    padding: 1% 5%;;
 }
 
-.body ul{
-  display: inline-block;
-  padding: 50px;
-  text-align: left;
+.content ul{
+    padding: 2%;
+    text-align: center;
 }
 
-.body ul li{
-  padding: 30px 20px;
+.contents ul h1,p,a{
+    padding: 1%;
+    text-decoration: none;
 }
 
-.body ul li a{
-  text-decoration: none;
-  color: #0000ff;
-}
-
-.body ul li a:hover{
-  color: #ff0000;
-  transition: 0.2s;
-}
-
-.coding{
-  padding: 5px;
-  text-align: center;
-}
-
-.coding h1{
-  font-size: 20px;
-  padding: 10px 12px;
-  background: #cffdbc;
-  border-radius: 50px;
-}
-
-.coding ul{
-  text-align: center;
-  display: inline-block;
-  padding: 60px;
-}
-
-.coding ul li{
-  padding: 30px 20px;
-  text-align: left;
-
-}
-
-.coding ul li a{
-  text-decoration: none;
-  color: #0000ff;
-}
-
-.coding ul li a:hover{
-  color: #ff0000;
-  transition: 0.2s;
-}
-
-.about{
-  text-align: center;
-}
-.about h1{
-  font-size: 20px;
-  padding: 10px 12px;
-  background: #cffdbc;
-  border-radius: 50px;
-}
-
-.about p{
-  padding: 20px;
-}
-
-.footer p{
-  text-align: center;
-  font-size: 12px;
-  padding: 8px;
-  background: #80ffaa;
+.footer{
+    text-align: center;
+    background: #d9d9d9;
 }
