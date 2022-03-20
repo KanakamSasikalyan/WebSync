@@ -7,7 +7,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to bottom right, rgb(0, 102, 255, 0),rgb(0, 102, 255,1)), url(images/background1.jpg);
+    background-image: linear-gradient(to bottom right, rgb(0, 102, 255, 0),rgb(0, 102, 255,1)), url("https://github.com/KanakamSasikalyan/Algebra/blob/main/images/background1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
