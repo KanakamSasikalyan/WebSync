@@ -7,130 +7,45 @@
 .header{
     min-height: 100vh;
     width: 100%;
-<<<<<<< HEAD
-    background-image: linear-gradient(to bottom right, rgb(0, 102, 255, 0),rgb(0, 102, 255,1)), url(images/background1.jpg);
-=======
-    background-image: linear-gradient(to bottom right, rgb(0, 102, 255, 0),rgb(0, 102, 255,1)), url("https://github.com/KanakamSasikalyan/Algebra/blob/main/images/background1.jpg");
->>>>>>> 58b9f17ca40d5945c0dd68d7d6ccdff3852ef651
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    background: rgb(34,193,195);
+    background: linear-gradient(248deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 74%);
+}
+.header ul{
+    list-style-type: none;
+    overflow: hidden;
+    background: #99e6ff;
+}
+.header li{
+    float: left;
 }
 
-nav{
-    padding: 1% 2%;
-}
-
-nav ul li{
-    padding: 1% 2%;
-    text-decoration: none;
-    display: inline-block;
-    list-style: none;
-<<<<<<< HEAD
-}
-nav ul li a{
-    text-decoration: none;
-    color: #fff;
-}
-nav ul li a:hover{
-    text-decoration: underline;
+.header li a{
+    display: block;
     color: #000;
-    transition: 0.4s;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
 }
 
-.header h1{
-    padding-top: 120px;
-    font-size: 70px;
-    text-align: center;
+.header li a:hover{
+    background-color: #000;
     color: #fff;
-}
-.header p{
-    padding-top: 20px;
-    text-align: center;
-    font-size: 25px;
-}
-
-.header h3{
-    padding-top: 60px;
-    font-size: 25px;
-    text-align: center;
-}
-
-.header h3 a{
-    text-decoration: none;
-    color: #fff
-}
-
-.content{
-    padding: 1% 5%;;
-}
-
-.content ul{
-    padding: 2%;
-    text-align: center;
-}
-
-.contents ul h1,p,a{
-    padding: 1%;
-    text-decoration: none;
-}
-
-.footer{
-    text-align: center;
-    background: #d9d9d9;
-}
-=======
-}
-nav ul li a{
-    text-decoration: none;
-    color: #fff;
-}
-nav ul li a:hover{
     text-decoration: underline;
-    color: #000;
-    transition: 0.4s;
+    transition: .5s;
 }
-
 .header h1{
-    padding-top: 120px;
-    font-size: 70px;
+    padding-top: 12%;
+    font-size: 55px;
     text-align: center;
-    color: #fff;
 }
+
 .header p{
-    padding-top: 20px;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
+    padding-top: 30px;
 }
 
-.header h3{
-    padding-top: 60px;
-    font-size: 25px;
-    text-align: center;
-}
-
-.header h3 a{
-    text-decoration: none;
-    color: #fff
-}
-
+/*-------------Content-----------------*/
 .content{
-    padding: 1% 5%;;
-}
-
-.content ul{
-    padding: 2%;
     text-align: center;
 }
-
-.contents ul h1,p,a{
-    padding: 1%;
-    text-decoration: none;
-}
-
-.footer{
-    text-align: center;
-    background: #d9d9d9;
-}
->>>>>>> 58b9f17ca40d5945c0dd68d7d6ccdff3852ef651
