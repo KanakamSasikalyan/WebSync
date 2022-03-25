@@ -7,7 +7,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background: rgb(34,193,195);
+    background-color: darkgray;
     background: linear-gradient(248deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 74%);
 }
 .header ul{
@@ -28,7 +28,7 @@
 }
 
 .header li a:hover{
-    background-color: #000;
+    background-color: blueviolet;
     color: #fff;
     text-decoration: underline;
     transition: .5s;
@@ -46,6 +46,21 @@
 }
 
 /*-------------Content-----------------*/
-.content{
+.content h1{
+    padding-top: 10px;
     text-align: center;
+}
+.community{
+    padding-top: 20px;
+    text-align: center;
+}
+.community ul{
+    height: 50px;
+    padding: 10px 60px;
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    border: 1px solid black;
+    justify-items:stretch;
+    border-radius: 20px;
 }
