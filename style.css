@@ -5,7 +5,7 @@
 }
 
 .header{
-    min-height: 100vh;
+    min-height: 70vh;
     width: 100%;
     background-color: darkgray;
     background: linear-gradient(248deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 74%);
@@ -46,21 +46,75 @@
 }
 
 /*-------------Content-----------------*/
-.content h1{
-    padding-top: 10px;
+.content h2{
+    padding-top: 30px;
     text-align: center;
+    color: #13F380;
 }
 .community{
     padding-top: 20px;
     text-align: center;
 }
+
 .community ul{
     height: 50px;
     padding: 10px 60px;
     display: inline-block;
     list-style-type: none;
     text-align: center;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     justify-items:stretch;
     border-radius: 20px;
+}
+
+.community h4{
+    padding: 20px;
+}
+.community ul li a{
+    text-decoration: none;
+    color: #6333FF;
+}
+
+.community ul li a:hover{
+    text-decoration: underline;
+    color: #000;
+    transition: .5s;
+}
+
+/*---------------------Learning------------------*/
+
+.learn{
+    padding: 50px;
+    text-align: center;
+}
+.learn h2{
+    padding: 30px;
+    color: #13F380;
+}
+
+.learn ul{
+    /*border: 1px solid black;*/
+    display: inline-block;
+    list-style-type: none;
+    padding: 8px 10px;
+    border-radius: 20px;
+}
+.learn h4{
+    padding: 20px;
+}
+.learn ul a{
+    padding: 10px;
+    color: #6333FF;
+    text-decoration: none;
+}
+.learn ul a:hover{
+    color: #000;
+    text-decoration: underline;
+    transition: .5s;
+}
+
+/*-------------------footer-------------------------*/
+.footer{
+    text-align: center;
+    font-size: 12px;
 }
