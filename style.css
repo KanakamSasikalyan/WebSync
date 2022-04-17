@@ -4,117 +4,173 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.header{
-    min-height: 70vh;
+#header{
+    height: 100vh;
     width: 100%;
-    background-color: darkgray;
-    background: linear-gradient(248deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 74%);
+    background-image: url(images/6583.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
-.header ul{
-    list-style-type: none;
-    overflow: hidden;
-    background: #99e6ff;
-}
-.header li{
-    float: left;
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-.header li a{
-    display: block;
-    color: #000;
-    padding: 15px 25px;
-    text-align: center;
+.logo{
+    margin-top: 30px;
+    font-size: 60px;
+    width: 100px;
+}
+.header-txt{
+    max-width: 350px;
+    margin-top: 40px;
+}
+
+.header-txt h1{
+    color: #00cc00;
+}
+
+.read-btn{
+    margin-top: 20px;
+    width: 130px;
+    height: 40px;
+    border: 2px solid #3333ff;
+    font-size: 15px;
+}
+
+
+#sideNav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: #3333ff;
+    z-index: 2;
+    transition: 0.5s;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+
+nav ul li a{
     text-decoration: none;
-}
-
-.header li a:hover{
-    background-color: blueviolet;
     color: #fff;
-    text-decoration: underline;
-    transition: .5s;
-}
-.header h1{
-    padding-top: 12%;
-    font-size: 55px;
-    text-align: center;
 }
 
-.header p{
-    text-align: center;
-    font-size: 20px;
-    padding-top: 30px;
+#menuBtn{
+    width: 50px;
+    position: fixed;
+    right: 65px;
+    top: 35px;
+    z-index: 2;
+    cursor: pointer;
 }
 
-/*-------------Content-----------------*/
-.content h2{
-    padding-top: 30px;
-    text-align: center;
-    color: #13F380;
-}
-.community{
-    padding-top: 20px;
-    text-align: center;
+/*------------------------about----------------------*/
+
+#about{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.community ul{
-    height: 50px;
-    padding: 10px 60px;
+.about-left-col{
+    flex-basis: 50%;
+    
+}
+
+.about-left-col img{
+    width: 100%;
+    
+}
+
+.about-right-col{
+    flex-basis: 50%;
+    
+}
+
+.about-txt{
+    max-width: 500px;
+    margin-right: 100px;
     display: inline-block;
-    list-style-type: none;
-    text-align: center;
-    /*border: 1px solid black;*/
-    justify-items:stretch;
-    border-radius: 20px;
 }
 
-.community h4{
-    padding: 20px;
+.about-txt h3{
+    margin-top: 20px;
+    color: #3333ff;
 }
-.community ul li a{
+
+#contribute{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    /*margin-left: 100px;
+    margin-right: 100px;
+    display: flex;*/
+}
+
+.contribute-right-col{
+    flex-basis: 50%;
+}
+.contribute-right-col img{
+    width: 100%;
+}
+
+.contribute-left-col{
+    flex-basis: 50%;
+}
+
+.contribute-txt{
+    max-width: 500px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: inline-block;
+}
+
+.contribute-txt a{
     text-decoration: none;
-    color: #6333FF;
 }
 
-.community ul li a:hover{
-    text-decoration: underline;
+.contribute-txt a:hover{
     color: #000;
-    transition: .5s;
 }
 
-/*---------------------Learning------------------*/
+#footer{
+    width: 100%;
+    height: 20%;
+    background: #000;
+}
 
-.learn{
+#footer ul{
+    margin-left: 100px;
+}
+
+#footer ul li{
+    list-style-type: none;
+    display: inline-block;
     padding: 50px;
-    text-align: center;
-}
-.learn h2{
-    padding: 30px;
-    color: #13F380;
 }
 
-.learn ul{
-    /*border: 1px solid black;*/
-    display: inline-block;
-    list-style-type: none;
-    padding: 8px 10px;
-    border-radius: 20px;
-}
-.learn h4{
-    padding: 20px;
-}
-.learn ul a{
-    padding: 10px;
-    color: #6333FF;
+#footer ul li a{
     text-decoration: none;
-}
-.learn ul a:hover{
-    color: #000;
-    text-decoration: underline;
-    transition: .5s;
+    color: #fff;
 }
 
-/*-------------------footer-------------------------*/
-.footer{
+#footer p{
+    color: #fff;
     text-align: center;
-    font-size: 12px;
 }
+
+
+
+
+
+
+
