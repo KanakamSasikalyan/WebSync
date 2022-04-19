@@ -1,6 +1,7 @@
 # Algebra
 
-https://img.freepik.com/free-vector/business-team-brainstorm-idea-lightbulb-from-jigsaw-working-team-collaboration-enterprise-cooperation-colleagues-mutual-assistance-concept-pinkish-coral-bluevector-isolated-illustration_335657-1651.jpg?t=st=1650376918~exp=1650377518~hmac=68a61c3569e6376411e756b4e60f233f196cc2608c18a72c3b2c96fbccefc47d&w=1060
+![Community](![image](https://user-images.githubusercontent.com/67740644/164022149-027986ff-852e-496c-901e-41b3ef9c7292.png)
+)
 
 The open source community is diverse and highly motivated. We're sure you'll be able to find someone who can help you (or that you can help) no matter what your interests are.
 
