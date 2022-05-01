@@ -2,6 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/67740644/164022282-229b466c-1fa6-4cdb-a126-1892a016c56c.png)
 
+# Welcome to Open Source Community
 The open source community is diverse and highly motivated. We're sure you'll be able to find someone who can help you (or that you can help) no matter what your interests are.
 
 Whether it's development or advocacy, open source software and other collaborative projects benefit through, and because of, community. Unlike traditional projects that require physical resources, sharing economies are generally only hindered by the number of people contributing to an effort and their ability to acquire and share knowledge.
@@ -11,6 +12,9 @@ Our development efforts generate resources for collaborative organizations, to h
 # Contributing
 
 If you want to contribute to a project and make it better, your help is very welcome. Contributing is also a great way to learn more about social coding on Github, new technologies and and their ecosystems and how to make constructive, helpful bug reports, feature requests and the noblest of all contributions: a good, clean pull request.
+
+## How to clone the repo
+#### [Check Here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
 ## How to make a clean pull request
 Look for a project's contribution instructions. If there are any, follow them.
@@ -35,4 +39,6 @@ And last but not least: Always write your commit messages in the present tense. 
 # Contributors
 #### [B.Radhika- Collaborator](https://github.com/radhika511)
 #### [K.Sasikalyan](https://github.com/KanakamSasikalyan)
+
+
 
