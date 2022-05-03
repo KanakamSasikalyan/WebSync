@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="K.Sasikalyan">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spaces-Organise your Meetings</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section id="spaceheader">
+            <div class="container">
+                <h1 class="logo" id="newlogo">Spaces</h1>
+                <!---------------------------------------------------------------->
+                <!--<div class="header-txt">
+                    <!--<h1>Let's connect the World</h1>-->
+                    <!--<p>Not creating a Space. But, Building a home.</p>-->
+                    <!--<button type="button" class="read-btn">Read More</button>
+                </div>-->
+                <!----------------------------------------------------------------->
+                
+                <div class="space-txt">
+                    <p><span class="auto-type"></span></p>
+                </div>
+                
+            </div>
+        </section>
+        <nav id="sideNav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="index.html">SPACES</a></li>
+                <li><a href="https://github.com/KanakamSasikalyan/Algebra">COMMUNITY</a></li>
+                <li><a href="https://github.com/KanakamSasikalyan/Algebra">ABOUT US</a></li>
+                <li><a href="https://github.com/KanakamSasikalyan/Algebra">CONTRIBUTE</a></li>
+            </ul>
+        </nav>
+        <img src="images/menu.png" id="menuBtn">
+        
+        <section class="spaces-body">
+            <h1>Connect World</h1>
+            <p>Our Community introducing the Spaces-Organise any meeting easily thorugh the world people.
+            The Spaces are the mechanism moving forwarding the people to maintain the world information and share world information to all the people each other and makes lives better.The Technology and Innovation plays the major role in today World. Our Community developing the interface to share the world info with each other from various parts of the globe.So to connect the world, is to give each person the freedom to read, to teach, to write, and to share. In the long-term, it is to improve international relations, and therefore to improve the quality of life and combat the ills of society.</p>
+            <div class="meet">
+                <a href="meet.html" class="meet-link">Create Space</a>
+            </div>
+        </section>
+        
+    </body>
+    
+    <!--------------footer-------------------->
+        <section id="footer">
+            <ul>
+                <li><a href="https://github.com/KanakamSasikalyan/Algebra">ABOUT</a></li>
+                <li><a href="https://github.com/KanakamSasikalyan/Algebra">JOIN COMMUNITY</a></li>
+                <li><a href="https://github.com/KanakamSasikalyan/Algebra">CONTRIBUTE</a></li>
+                <li><a href="https://github.com/KanakamSasikalyan/Algebra">SPACES</a></li>
+                <li><a href="https://github.com/KanakamSasikalyan/Algebra">JUST ASK</a></li>
+                <li><a href="https://github.com/KanakamSasikalyan/Algebra">FAQ</a></li>
+            </ul>
+            <p>© Copyright 2022 Algebra <a href="https://github.com/KanakamSasikalyan/Algebra">Sasikalyan</a></p>
+        </section>
+    
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sideNav = document.getElementById("sideNav");
+        sideNav.style.right = "-250px";
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+            }
+            else{
+                sideNav.style.right = "-250px";
+            }
+        }
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Welcome to Spaces","Organise your Meetings here!","Algebra Introducing Spaces!","Let's build for people!", "Join our Community"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+    </script>
+    
+    
+    <!----------------------------Spaces-Application--------------------------->
+</html>

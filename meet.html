@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Spaces-Create Meeting</title>
+        <meta charset="utf-8">
+        <meta name="author" content="K.Sasikalyan">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+        <script src="https://meet.jit.si/external_api.js"></script>
+    </head>
+    <body class="meet-head">
+        <h1>Create New Space</h1>
+        <button id="start" type="start">Create Meeting</button>
+        <br>
+        <button id="start" type="button" onclick="window.location.href='index.html'">Home</button>
+        <div id="jitsi-container"></div>
+        <script>
+            var button = document.querySelector('#start');
+            var container = document.querySelector('#jitsi-container');
+            var api = null;
+
+            button.addEventListener('click', () => {
+                var possible = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+                var stringLength = 30;
+                function pickRandom () {
+                    return possible[Math.floor() * possible.length];
+                }
+                var randomString = Array.apply(null,Array(stringLength)).map (pickRandom).join('');
+
+                var domain = "meet.jit.si";
+                var options = {
+                    "roomName": randomString,
+                    "parentNode": container,
+                    "width": 600,
+                    "height": 600,
+                };
+                api = new JitsiMeetExternalAPI(domain, options);
+             });
+        </script>
+        <p class="copy-right">© Copyright 2022 Algebra <a href="https://github.com/KanakamSasikalyan/Algebra">Sasikalyan</a></p>
+    </body>
+</html>
