@@ -1,6 +1,5 @@
 # Algebra
 
-![image](https://user-images.githubusercontent.com/67740644/164022282-229b466c-1fa6-4cdb-a126-1892a016c56c.png)
 
 # Welcome to Open Source Community
 The open source community is diverse and highly motivated. We're sure you'll be able to find someone who can help you (or that you can help) no matter what your interests are.
@@ -42,6 +41,4 @@ And last but not least: Always write your commit messages in the present tense. 
 # Contributors
 ### [B.Radhika- Collaborator](https://github.com/radhika511)
 ### [K.Sasikalyan](https://github.com/KanakamSasikalyan)
-
-
 
