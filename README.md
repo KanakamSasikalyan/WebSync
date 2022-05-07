@@ -43,3 +43,18 @@ And last but not least: Always write your commit messages in the present tense. 
 ### [B.Radhika- Collaborator](https://github.com/radhika511)
 ### [K.Sasikalyan](https://github.com/KanakamSasikalyan)
 
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Role</th>
+  </tr>
+  <tr>
+    <tr>K.Sasikalyan</tr>
+    <tr>Author</tr>
+  </tr>
+  <tr>
+    <tr>B.Radhika</tr>
+    <tr>Collaborator</tr>
+  </tr>
+</table>
+
