@@ -90,4 +90,4 @@ GitHub will bring you to a page where you can enter a title and a description of
 | B.Radhika    | Collaborator & Contributor|  [Check](https://github.com/radhika511) |
 
 
-#### © Copyright Agency and contributors 2022. 
+#### Algebra © Copyright Agency 2022 by Sasikalyan.K 
