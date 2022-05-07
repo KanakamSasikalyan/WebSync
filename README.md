@@ -1,5 +1,6 @@
 # Algebra
 
+![image](https://user-images.githubusercontent.com/67740644/167239629-b5d3731f-51de-4c37-9b40-89e6369ec4b2.png)
 
 # Welcome to Open Source Community
 The open source community is diverse and highly motivated. We're sure you'll be able to find someone who can help you (or that you can help) no matter what your interests are.
