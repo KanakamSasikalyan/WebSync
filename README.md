@@ -84,8 +84,6 @@ GitHub will bring you to a page that shows the differences between your fork and
 GitHub will bring you to a page where you can enter a title and a description of your changes. It's important to provide as much useful information and a rationale for why you're making this pull request in the first place. The project owner needs to be able to determine whether your change is as useful to everyone as you think it is. Finally, click Create pull request.
 
 # Contributors
-
-|  Name  |  Role   |  Profile  |
-| :----: |  :---:  |  :-----:  |
+|                Name                  |            Role in Project             |               Profile                  |         
 
 © Copyright Agency and contributors 2022. 
