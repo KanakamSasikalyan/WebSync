@@ -87,7 +87,7 @@ GitHub will bring you to a page where you can enter a title and a description of
 |  Name   |  Role in Project  |  Profile   | 
 | :----:  |  :-------------:  |  :-----:   |
 | K.Sasikalyan | Author       |  [Check](https://github.com/KanakamSasikalyan)      |
-| B.Radhika    | Collaborator & Contributor|  [Check]() |
+| B.Radhika    | Collaborator & Contributor|  [Check](https://github.com/radhika511) |
 
 
-© Copyright Agency and contributors 2022. 
+#### © Copyright Agency and contributors 2022. 
