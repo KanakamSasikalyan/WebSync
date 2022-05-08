@@ -6,4 +6,5 @@ email, or any other method with the owners of this repository before making a ch
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 
 # Contributors
-
+#### [B.Radhika](https://github.com/radhika511)
+#### [K.Sasikalyan](https://github.com/KanakamSasikalyan)
