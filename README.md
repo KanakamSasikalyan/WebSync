@@ -89,5 +89,7 @@ GitHub will bring you to a page where you can enter a title and a description of
 | K.Sasikalyan | Author       |  [Check](https://github.com/KanakamSasikalyan)      |
 | B.Radhika    | Collaborator & Contributor|  [Check](https://github.com/radhika511) |
 
+# Community Rules
+### ✔[Read Here](https://github.com/KanakamSasikalyan/Algebra/edit/main/CODE_OF_CONDUCT.md)
 
 #### Algebra © Copyright Agency 2022 by Sasikalyan.K 
