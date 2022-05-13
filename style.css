@@ -147,7 +147,7 @@ nav ul li a{
 #spaceheader{
     height: 100vh;
     width: 100%;
-    background-image: url("images/5539119.jpg");
+    background-image: url("images/5445590.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -206,7 +206,11 @@ nav ul li a{
 /*-----------------------------meet.html----------------------------*/
 
 .meet-head{
-    background-image: url("images/5430284.jpg");
+    background-image: url("images/moon-31665_1280.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
     margin-top: 50px;
     text-align: center;
 }
