@@ -232,6 +232,58 @@ nav ul li a{
     color: #fff;
 }
 
+/*----------------------------aboutus------------------------------*/
+
+#aboutheader{
+    min-height: 50vh;
+    width: 100%;
+    background-image: url(images/5539119.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.about-txt{
+    margin-top: 6%;
+    font-size: 35px;
+}
+
+#community{
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+}
+
+#community h3{
+    font-size: 25px;
+}
+
+#community p{
+    margin-top: 15px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.contributors h3{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.contributors ul{
+    text-align: center;
+}
+.contributors ul li{
+    margin: 10px 50px 10px 50px;
+    list-style: none;
+}
+
+.contributors ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+}
 
 /*----------------------------footer-------------------------------*/
 #footer{
