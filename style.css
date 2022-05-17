@@ -237,7 +237,7 @@ nav ul li a{
 #aboutheader{
     min-height: 50vh;
     width: 100%;
-    background-image: url(images/5539119.jpg);
+    background-image: url("images/5539119.jpg");
     background-position: center;
     background-repeat: no-repeat;
     color: #fff;
