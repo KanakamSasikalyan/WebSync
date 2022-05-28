@@ -88,6 +88,7 @@ GitHub will bring you to a page where you can enter a title and a description of
 | :----:  |  :-------------:  |  :-----:   |
 | K.Sasikalyan | Author       |  [Check](https://github.com/KanakamSasikalyan)      |
 | B.Radhika    | Collaborator & Contributor|  [Check](https://github.com/radhika511) |
+| B.JayaLakshmi| Contributor | [Check](https://github.com/jayabommisetty) |
 
 # Community Rules
 #### ✔[ Read Here ](https://github.com/KanakamSasikalyan/Algebra/blob/main/CODE_OF_CONDUCT.md)
