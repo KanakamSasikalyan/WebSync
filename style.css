@@ -205,32 +205,41 @@ nav ul li a{
 
 /*-----------------------------meet.html----------------------------*/
 
-.meet-head{
-    background-image: url("images/moon-31665_1280.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    position: relative;
-    margin-top: 50px;
-    text-align: center;
+.meet-head h2{
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 35px;
+    border: 2px solid #000;
+    border-radius: 25px;
+    width: 400px;
+    padding-left: 14px;
+    color: blue;
 }
 
-.meet-head h1{
-    color: #fff;
-    font-size: 50px;
+.meet-head p{
+    width: 50%;
+    margin-left: 40px;
+    margin-top: 40px;
 }
 
 #start{
-    margin-top: 50px;
-    width: 15%;
-    font-size: 25px;
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 200px;
+    background-color: #000;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 6px;
 }
 
-.copy-right{
-    margin-top: 22%;
-    font-size: 20px;
-    color: #fff;
+.copy a{
+    text-decoration: none;
+    color: blue;
+}
+
+#jitsi-container{
+    margin-left: 30%;
 }
 
 /*----------------------------aboutus------------------------------*/
@@ -311,6 +320,11 @@ nav ul li a{
 #footer p{
     color: #fff;
     text-align: center;
+}
+
+#footer a{
+    text-decoration: none;
+    color: dodgerblue;
 }
 
 

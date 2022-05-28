@@ -13,10 +13,22 @@
         <script src="https://meet.jit.si/external_api.js"></script>
     </head>
     <body class="meet-head">
-        <h1>Create New Space</h1>
+        <!--<h1>Welcome to Spaces!</h1>
+        <button id="start" type="start">Create Meeting</button>
+        <br>
+        <button id="start" type="button" onclick="window.location.href='index.html'">Home</button>-->
+        
+        <img src="images/4936927.jpg" style="height: 600px; width: 600px; float: right;">
+        <h2>Welcome to Spaces</h2>
+        <p>Our Community introducing the Spaces-Organise any meeting easily thorugh the world people.
+            The Spaces are the mechanism moving forwarding the people to maintain the world information and share world information to all the people each other and makes lives better.The Technology and Innovation plays the major role in today World. Our Community developing the interface to share the world info with each other from various parts of the globe.So to connect the world, is to give each person the freedom to read, to teach, to write, and to share. In the long-term, it is to improve international relations, and therefore to improve the quality of life and combat the ills of society..Schedule meetings faster! Spaces is the fastest way to schedule your meetings and events. It's free! No registration required.Spacesis your hub for scheduling meetings professionally and efficiently, eliminating the hassle ... Schedule meetings without any signup. Organise meetings in opensource with more privacy and security by jitsi api's. Start and Schedule a meeting now!
+        </p>
         <button id="start" type="start">Create Meeting</button>
         <br>
         <button id="start" type="button" onclick="window.location.href='index.html'">Home</button>
+        
+        <p class="copy">© Copyright 2022 Algebra <a href="https://github.com/KanakamSasikalyan/Algebra">Sasikalyan</a></p>
+        
         <div id="jitsi-container"></div>
         <script>
             var button = document.querySelector('#start');
@@ -35,12 +47,11 @@
                 var options = {
                     "roomName": randomString,
                     "parentNode": container,
-                    "width": 900,
-                    "height": 900,
+                    "width": 600,
+                    "height": 600,
                 };
                 api = new JitsiMeetExternalAPI(domain, options);
              });
         </script>
-        <p class="copy-right">© Copyright 2022 Algebra <a href="https://github.com/KanakamSasikalyan/Algebra">Sasikalyan</a></p>
     </body>
 </html>
