@@ -2,7 +2,7 @@
 
 <html>
     <head>
-        <title>Spaces-Create Meeting</title>
+        <title>MeetSpot: Schedule meeting</title>
         <meta charset="utf-8">
         <meta name="author" content="K.Sasikalyan">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,15 +17,17 @@
         <button id="start" type="start">Create Meeting</button>
         <br>
         <button id="start" type="button" onclick="window.location.href='index.html'">Home</button>-->
-        <h1>Welcome to Spaces</h1>
-        <p>Our Community introducing the Spaces-Organise any meeting easily thorugh the world people.
-            The Spaces are the mechanism moving forwarding the people to maintain the world information and share world information to all the people each other and makes lives better.The Technology and Innovation plays the major role in today World. Our Community developing the interface to share the world info with each other from various parts of the globe.So to connect the world, is to give each person the freedom to read, to teach, to write, and to share. In the long-term, it is to improve international relations, and therefore to improve the quality of life and combat the ills of society..Schedule meetings faster! Spaces is the fastest way to schedule your meetings and events. It's free! No registration required.Spacesis your hub for scheduling meetings professionally and efficiently, eliminating the hassle ... Schedule meetings without any signup. Organise meetings in opensource with more privacy and security by jitsi api's. Start and Schedule a meeting now!
+        <h1>Welcome to MeetSpot</h1>
+        <p>Our Community introducing the MeetSpot. MeetSpot is a community-driven platform that allows people to easily organize meetings and share information globally. It aims to improve international relations, quality of life, and combat societal issues. MeetSpot is the fastest way to schedule meetings and events, offering professional scheduling meetings openly. MeetingSpot is opensource, secure, and offers privacy and security through jitsi APIs.
         </p>
         <button id="start" type="start">Start Meeting</button>
         <br>
         <button id="start" type="button" onclick="window.location.href='index.html'">Home</button>
 
         <div id="jitsi-container"></div>
+        <div id="dev">
+            <p>Developed by <a href="#">@Sasikalyan.K</a></p>
+        </div>
         <script>
             var button = document.querySelector('#start');
             var container = document.querySelector('#jitsi-container');
@@ -43,12 +45,12 @@
                 var options = {
                     "roomName": randomString,
                     "parentNode": container,
-                    "width": 600,
-                    "height": 600,
+                    "width": 800,
+                    "height": 500,
                 };
                 api = new JitsiMeetExternalAPI(domain, options);
              });
         </script>
-        <p>© Copyright 2022 Algebra <a href="https://github.com/KanakamSasikalyan/Algebra">Sasikalyan</a></p>
+        
     </body>
 </html>
